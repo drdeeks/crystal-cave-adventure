@@ -1,7 +1,7 @@
 {
   "name": "Big Brain",
   "description": "A Monanimal of infinite intellect, guardian of ancient puzzles and lost catacombs.",
-  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/22.png",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq/22.png",
   "attributes": [
     { "trait_type": "Monanimal", "value": "True" },
     { "trait_type": "Cave Dweller", "value": "Yes" },
@@ -22,7 +22,7 @@
     { "trait_type": "Wisdom Level", "value": "Supreme" }
   ],
   "ipfs": {
-    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "images_hash": "bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq",
     "gateway": "https://gateway.pinata.cloud/ipfs"
   }
 } 

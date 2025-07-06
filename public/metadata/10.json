@@ -1,7 +1,7 @@
 {
   "name": "Ancient Scroll",
   "description": "Scroll containing knowledge of ancient civilizations",
-  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/10.png",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq/10.png",
   "attributes": [
     {
       "trait_type": "Type",
@@ -26,30 +26,10 @@
     {
       "trait_type": "Knowledge Type",
       "value": "Ancient Wisdom"
-    },
-    {
-      "trait_type": "Dragon Gift",
-      "value": "True"
-    },
-    {
-      "trait_type": "Galaxy Count",
-      "value": "Billions"
-    },
-    {
-      "trait_type": "Scale",
-      "value": "Universal"
-    },
-    {
-      "trait_type": "Dimension",
-      "value": "3D Holographic"
-    },
-    {
-      "trait_type": "Update Frequency",
-      "value": "Real-time"
     }
   ],
   "ipfs": {
-    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "images_hash": "bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq",
     "updated": "2025-06-30T20:38:00.786Z",
     "gateway": "https://gateway.pinata.cloud/ipfs",
     "enhanced": "2025-06-30T20:47:25.272Z",

@@ -1,7 +1,7 @@
 {
   "name": "Ancient Map",
   "description": "A mystical map revealing hidden cave passages",
-  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/0.png",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq/0.png",
   "attributes": [
     {
       "trait_type": "Type",
@@ -9,7 +9,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Uncommon"
     },
     {
       "trait_type": "Discovery Location",
@@ -21,7 +21,7 @@
     }
   ],
   "ipfs": {
-    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "images_hash": "bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq",
     "updated": "2025-06-30T20:38:00.750Z",
     "gateway": "https://gateway.pinata.cloud/ipfs",
     "enhanced": "2025-06-30T20:47:25.194Z",

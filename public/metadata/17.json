@@ -1,7 +1,7 @@
 {
   "name": "Master Crystal",
   "description": "The ultimate crystal containing all cave secrets",
-  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/17.png",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq/17.png",
   "attributes": [
     {
       "trait_type": "Type",
@@ -21,7 +21,7 @@
     }
   ],
   "ipfs": {
-    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "images_hash": "bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq",
     "updated": "2025-06-30T20:38:00.818Z",
     "gateway": "https://gateway.pinata.cloud/ipfs",
     "enhanced": "2025-06-30T20:47:25.312Z",

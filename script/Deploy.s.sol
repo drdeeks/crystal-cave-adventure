@@ -11,7 +11,7 @@ contract DeployScript is Script {
         // FINAL IPFS Configuration - Enhanced Metadata
         // Metadata Hash: bafybeiexaxdly7tuz6u4hnbp6raoxwdhx6t666ghibm2khi2wu5nwyv5ae
         // Images Hash: bafybeieihybcrktnj4lrtzqhxkcedpxzk5wvga3bcvr7mus4zpthqbs3zu
-        string memory baseURI = "https://gateway.pinata.cloud/ipfs/bafybeiexaxdly7tuz6u4hnbp6raoxwdhx6t666ghibm2khi2wu5nwyv5ae/";
+        string memory baseURI = "https://gateway.pinata.cloud/ipfs/bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq/";
         
         // Deploy contract (gas limit controlled via forge command options)
         CrystalCaveNFT nft = new CrystalCaveNFT(baseURI);

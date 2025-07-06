@@ -1,7 +1,7 @@
 {
   "name": "Galaxy Map",
   "description": "Map of distant galaxies and their mysteries",
-  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/15.png",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq/15.png",
   "attributes": [
     {
       "trait_type": "Type",
@@ -21,7 +21,7 @@
     }
   ],
   "ipfs": {
-    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "images_hash": "bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq",
     "updated": "2025-06-30T20:38:00.814Z",
     "gateway": "https://gateway.pinata.cloud/ipfs",
     "enhanced": "2025-06-30T20:47:25.301Z",

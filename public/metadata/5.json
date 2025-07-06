@@ -1,7 +1,7 @@
 {
   "name": "Pattern Pearl",
   "description": "Pearl containing mathematical mysteries",
-  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/5.png",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq/5.png",
   "attributes": [
     {
       "trait_type": "Type",
@@ -26,26 +26,10 @@
     {
       "trait_type": "Reflection Power",
       "value": "True"
-    },
-    {
-      "trait_type": "Constellation Count",
-      "value": "88"
-    },
-    {
-      "trait_type": "Accuracy",
-      "value": "Stellar"
-    },
-    {
-      "trait_type": "Material",
-      "value": "Star Dust Paper"
-    },
-    {
-      "trait_type": "Luminescence",
-      "value": "Self-Glowing"
     }
   ],
   "ipfs": {
-    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "images_hash": "bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq",
     "updated": "2025-06-30T20:38:00.769Z",
     "gateway": "https://gateway.pinata.cloud/ipfs",
     "enhanced": "2025-06-30T20:47:25.239Z",

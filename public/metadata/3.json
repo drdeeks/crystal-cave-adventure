@@ -1,7 +1,7 @@
 {
   "name": "Marina's Journal",
   "description": "Ancient explorer's notes and secrets",
-  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/3.png",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq/3.png",
   "attributes": [
     {
       "trait_type": "Type",
@@ -26,26 +26,10 @@
     {
       "trait_type": "Partnership Gift",
       "value": "True"
-    },
-    {
-      "trait_type": "Crystal Type",
-      "value": "Aquamarine"
-    },
-    {
-      "trait_type": "Purity Level",
-      "value": "Pure"
-    },
-    {
-      "trait_type": "Flow State",
-      "value": "Active"
-    },
-    {
-      "trait_type": "Healing Properties",
-      "value": "True"
     }
   ],
   "ipfs": {
-    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "images_hash": "bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq",
     "updated": "2025-06-30T20:38:00.766Z",
     "gateway": "https://gateway.pinata.cloud/ipfs",
     "enhanced": "2025-06-30T20:47:25.220Z",

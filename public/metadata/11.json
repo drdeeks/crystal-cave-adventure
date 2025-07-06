@@ -1,7 +1,7 @@
 {
   "name": "Dragon's Wisdom",
   "description": "Wisdom shared by the cave's dragon guardian",
-  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/11.png",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq/11.png",
   "attributes": [
     {
       "trait_type": "Type",
@@ -26,30 +26,10 @@
     {
       "trait_type": "Wisdom Level",
       "value": "Legendary"
-    },
-    {
-      "trait_type": "Guardian's Gift",
-      "value": "True"
-    },
-    {
-      "trait_type": "Planet Origin",
-      "value": "Unknown System"
-    },
-    {
-      "trait_type": "Achievement Level",
-      "value": "Cosmic Explorer"
-    },
-    {
-      "trait_type": "Material",
-      "value": "Meteorite Alloy"
-    },
-    {
-      "trait_type": "Rank",
-      "value": "Master Navigator"
     }
   ],
   "ipfs": {
-    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "images_hash": "bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq",
     "updated": "2025-06-30T20:38:00.791Z",
     "gateway": "https://gateway.pinata.cloud/ipfs",
     "enhanced": "2025-06-30T20:47:25.278Z",

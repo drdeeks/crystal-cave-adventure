@@ -235,8 +235,8 @@ const AdventureLearningGame = () => {
   const handleGoBack = () => {
     setViewsHistory(prev => {
       if (prev.length === 0) {
-        // Nothing to go back to – fallback to start of game
-        setCurrentScene('start');
+        // Nothing to go back to – return to the last path scene the player visited
+        setCurrentScene(lastPathScene || 'start');
         setGameMode('path');
         return prev;
       }
@@ -505,10 +505,9 @@ const AdventureLearningGame = () => {
        choices: [
          { text: "Forge this fire crystal for all eternity", action: () => showMintOption(8, "Fire Crystal") },
          { text: "Enter the trial of inner courage", action: () => { setCurrentScene('courageTrial'); setGameMode('quiz'); } },
-         { text: "Take a fry-cook side-gig for John W. RichKid", action: () => { setCurrentScene('fryCookMishap'); setGameMode('path'); } },
-         { text: "Explore the cosmic impact chamber", action: () => { setCurrentScene('caveHistory'); setGameMode('quiz'); } },
-         { text: "Pitch Calc-Coin on Shark Tank", action: () => { setCurrentScene('sharkTankRoast'); setGameMode('path'); } },
-         { text: "Face Dragon Court for shit-posting", action: () => { setCurrentScene('parallelExecutionDeath'); setGameMode('path'); } },
+         { text: "Sneak into the Dragon Treasure Vault", action: () => { setCurrentScene('dragonTreasureVault'); setGameMode('path'); } },
+         { text: "Surf the molten lava streams", action: () => { setCurrentScene('lavaSurfDeath'); setGameMode('path'); } },
+         { text: "Take a fry-cook side-gig for John W. RichKid", action: () => { setCurrentScene('fryCookMishap'); setGameMode('path'); } }
        ]
      },
      
@@ -759,7 +758,8 @@ const AdventureLearningGame = () => {
          { text: "Crystallize this cosmic map forever", action: () => showMintOption(13, "Star Map") },
          { text: "Follow stellar paths to planetary mysteries", action: () => { setCurrentScene('solarSystem'); setGameMode('quiz'); } },
          { text: "Venture toward galactic knowledge", action: () => { setCurrentScene('galaxyQuest'); setGameMode('quiz'); } },
-         { text: "Seek the deepest cosmic truths", action: () => { setCurrentScene('timeQuest'); setGameMode('quiz'); } }
+         { text: "Seek the deepest cosmic truths", action: () => { setCurrentScene('timeQuest'); setGameMode('quiz'); } },
+         { text: "Attempt to surf a super-nova shockwave", action: () => { setCurrentScene('supernovaSurfDeath'); setGameMode('path'); } }
        ]
      },
      
@@ -790,7 +790,8 @@ const AdventureLearningGame = () => {
          { text: "Preserve this planetary knowledge", action: () => showMintOption(14, "Planetary Badge") },
          { text: "Expand vision to galactic scales", action: () => { setCurrentScene('galaxyQuest'); setGameMode('quiz'); } },
          { text: "Journey through the corridors of time", action: () => { setCurrentScene('timeQuest'); setGameMode('quiz'); } },
-         { text: "Discover the ultimate cosmic secret", action: () => { setCurrentScene('secretPath'); setGameMode('quiz'); } }
+         { text: "Discover the ultimate cosmic secret", action: () => { setCurrentScene('secretPath'); setGameMode('quiz'); } },
+         { text: "Enter the Cosmic Harmony Sanctum", action: () => { setCurrentScene('cosmicHarmonySanctum'); setGameMode('path'); } }
        ]
      },
      
@@ -821,7 +822,8 @@ const AdventureLearningGame = () => {
          { text: "Crystallize this galactic knowledge", action: () => showMintOption(15, "Galaxy Map") },
          { text: "Explore the mysteries of time itself", action: () => { setCurrentScene('timeQuest'); setGameMode('quiz'); } },
          { text: "Seek the ultimate repository of knowledge", action: () => { setCurrentScene('secretPath'); setGameMode('quiz'); } },
-         { text: "Journey to tranquil dimensional passages", action: () => { setCurrentScene('tranquilPassage'); setGameMode('quiz'); } }
+         { text: "Journey to tranquil dimensional passages", action: () => { setCurrentScene('tranquilPassage'); setGameMode('quiz'); } },
+         { text: "Attempt a Raptor(cast) meteor ride", action: () => { setCurrentScene('raptorMeteorDeath'); setGameMode('path'); } }
        ]
      },
      
@@ -852,7 +854,8 @@ const AdventureLearningGame = () => {
          { text: "Preserve this temporal essence forever", action: () => showMintOption(16, "Time Crystal") },
          { text: "Use time's wisdom to find ultimate knowledge", action: () => { setCurrentScene('secretPath'); setGameMode('quiz'); } },
          { text: "Journey to the deepest dimensional realms", action: () => { setCurrentScene('tranquilPassage'); setGameMode('quiz'); } },
-         { text: "Return to explore remaining mysteries", action: () => { setCurrentScene('start'); setGameMode('path'); } }
+         { text: "Return to explore remaining mysteries", action: () => { setCurrentScene('start'); setGameMode('path'); } },
+         { text: "Volunteer for a Monanimal space launch", action: () => { setCurrentScene('failedMonanimalLaunch'); setGameMode('path'); } }
        ]
      },
      
@@ -1178,6 +1181,43 @@ const AdventureLearningGame = () => {
        text: "A dragon jury finds you guilty of excessive shit-posting. Sentence: Parallel Execution. Twelve fiery clones of you are incinerated simultaneously. 💀",
        image: "🐲⚖️💀",
        choices: [ { text: "Return to Cave Entrance", action: () => { handleReplay(); } } ]
+     },
+
+     /* === New Dragon-Flame additional scenes === */
+     lavaSurfDeath: {
+       title: "Lava Surf Wipe-out",
+       text: "You grab a crystal surfboard and ride molten lava waves. One mistimed carve and you're swallowed by a geyser of magma. 💀",
+       image: "🌋🏄‍♂️💀",
+       choices: [ { text: "Respawn at Cave Entrance", action: () => { handleReplay(); } } ]
+     },
+
+     dragonTreasureVault: {
+       title: "Dragon Treasure Vault",
+       text: "Glittering gems tower around you. With the dragon distracted, you pocket a courage-infused ruby (+1 courage) before alarms flare!",
+       image: "💰🐲",
+       choices: [
+         { text: "Escape with the ruby (+1 courage)", action: () => { addStat('courage',1); setCurrentScene('courage_earned'); setGameMode('path'); } },
+         { text: "Pitch Calc-Coin on Shark Tank anyway", action: () => { setCurrentScene('sharkTankRoast'); setGameMode('path'); } },
+         { text: "Return to Entrance", action: () => { setCurrentScene('start'); setGameMode('path'); } }
+       ]
+     },
+
+     /* === New Star-Voyage additional scenes === */
+     supernovaSurfDeath: {
+       title: "Super-Nova Surfing Mishap",
+       text: "You attempt to ride the shock-wave of an exploding star. The board disintegrates… so do you. 💀",
+       image: "☄️🏄‍♀️💀",
+       choices: [ { text: "Start Over", action: () => { handleReplay(); } } ]
+     },
+
+     cosmicHarmonySanctum: {
+       title: "Cosmic Harmony Sanctum",
+       text: "A celestial choir resonates through your soul. You feel an overwhelming kindness flood the universe (+1 kindness).",
+       image: "🎶🌠",
+       choices: [
+         { text: "Bask a moment then continue", action: () => { addStat('kindness',1); setCurrentScene('galactic_map'); setGameMode('path'); } },
+         { text: "Return to Entrance", action: () => { setCurrentScene('start'); setGameMode('path'); } }
+       ]
      },
 
      // === Star-Voyage comedic endings ===
@@ -1551,18 +1591,20 @@ const AdventureLearningGame = () => {
             </div>
             {currentSceneData.choices && (
               <div className="flex flex-col gap-3 max-w-4xl mx-auto items-center justify-center" style={{ alignItems: 'center', justifyContent: 'center', display: 'flex', width: '100%', flexDirection: 'column' }}>
-                {filterChoicesForOwnedArtifacts(currentSceneData.choices).map((choice: any, index: number) => (
-                  <button
-                    key={index}
-                    className="choice-btn"
-                    aria-label={`Choose: ${choice.text}`}
-                    onClick={choice.action}
-                    onKeyDown={e => (e.key === 'Enter' || e.key === ' ') && choice.action()}
-                    style={{ minWidth: '400px', maxWidth: '600px', minHeight: '50px', whiteSpace: 'nowrap', textAlign: 'center', fontSize: '1.1rem', fontWeight: 600, lineHeight: 1.2, padding: '0.8rem 2rem', overflow: 'hidden', textOverflow: 'ellipsis', display: 'block', width: '100%' }}
-                  >
-                    {choice.text}
-                  </button>
-                ))}
+                {filterChoicesForOwnedArtifacts(currentSceneData.choices)
+                  .slice(0, 5) // enforce a maximum of 5 choices per screen
+                  .map((choice: any, index: number) => (
+                    <button
+                      key={index}
+                      className="choice-btn"
+                      aria-label={`Choose: ${choice.text}`}
+                      onClick={choice.action}
+                      onKeyDown={e => (e.key === 'Enter' || e.key === ' ') && choice.action()}
+                      style={{ minWidth: '400px', maxWidth: '600px', minHeight: '50px', whiteSpace: 'nowrap', textAlign: 'center', fontSize: '1.1rem', fontWeight: 600, lineHeight: 1.2, padding: '0.8rem 2rem', overflow: 'hidden', textOverflow: 'ellipsis', display: 'block', width: '100%' }}
+                    >
+                      {choice.text}
+                    </button>
+                  ))}
               </div>
             )}
           </>
@@ -1617,14 +1659,7 @@ const AdventureLearningGame = () => {
               <br/>This powerful relic holds ancient wisdom and mystical properties.
             </p>
             <div className="flex flex-row gap-4 justify-center items-center flex-wrap">
-              {ownedArtifactIds.includes(showArtifactReward.id) ? (
-                <button
-                  disabled={true}
-                  className="bg-gray-400 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 min-w-[200px] opacity-70 cursor-not-allowed"
-                >
-                  ✅ Already Minted
-                </button>
-              ) : (
+              {ownedArtifactIds.includes(showArtifactReward.id) ? null : (
                 <button
                   onClick={handleMintAndContinue}
                   disabled={isMinting}

@@ -1,7 +1,7 @@
 {
   "name": "Chill Dak",
   "description": "A serene duck-like Monanimal that brings tranquility",
-  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/18.png",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq/18.png",
   "attributes": [
     {
       "trait_type": "Rarity",
@@ -61,7 +61,7 @@
     }
   ],
   "ipfs": {
-    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "images_hash": "bafybeihpu26nuz3zztksn5lfsbdzw744c5mxgbxzrx3shkecoiiwc7w2rq",
     "updated": "2025-06-30T20:38:00.820Z",
     "gateway": "https://gateway.pinata.cloud/ipfs"
   }
