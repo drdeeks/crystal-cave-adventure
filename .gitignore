@@ -1,0 +1,121 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+/lib
+
+# Testing
+/coverage
+*.lcov
+
+# Production builds
+/build
+/dist
+/out
+
+# Foundry/Forge artifacts
+/cache
+/broadcast
+*.t.sol.gas-snapshot
+forge-config.json
+.forge-cache
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/keystore
+*.keystore
+*.key
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Package lock files (keep package.json, ignore locks for flexibility)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Electron build outputs
+*.exe
+*.dmg
+*.AppImage
+*.deb
+*.rpm
+*.snap
+*.pkg
+*.app
+
+# Electron cache and temp files
+.electron-cache
+.tmp/
+.temp/
+
+# Build artifacts and temp files
+build/icon.*
+!build/icon.svg
+*.tgz
+*.tar.gz
+
+# MacOS specific
+*.app
+
+# Test artifacts
+.nyc_output
+coverage/
+*.coverage
+
+# Temporary files and scripts
+*.tmp
+*.temp
+*_backup
+*_old
+fix-*.ps1
+*-results.json
+
+# IPFS and blockchain artifacts (keep configs, ignore results)
+ipfs-verification-results.json
+
+# Update summary file
+UPDATE_SUMMARY.md
+
+# Cursor directory
+.cursor/ 

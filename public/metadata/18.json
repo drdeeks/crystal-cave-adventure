@@ -1,0 +1,68 @@
+{
+  "name": "Chill Dak",
+  "description": "A serene duck-like Monanimal that brings tranquility",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/18.png",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Cave Dweller",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Mission",
+      "value": "5"
+    },
+    {
+      "trait_type": "Monanimal",
+      "value": "True"
+    },
+    {
+      "trait_type": "Utility",
+      "value": "True"
+    },
+    {
+      "trait_type": "Path",
+      "value": "Tranquil Passage"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Tranquility"
+    },
+    {
+      "trait_type": "Gay",
+      "value": "Ofc"
+    },
+    {
+      "trait_type": "Discovery Location",
+      "value": "Serene Pools"
+    },
+    {
+      "trait_type": "Source Challenge",
+      "value": "Philosophy"
+    },
+    {
+      "trait_type": "Monanimal Type",
+      "value": "Chill Dak"
+    },
+    {
+      "trait_type": "Ability",
+      "value": "Peace Bringer"
+    },
+    {
+      "trait_type": "Meditation Master",
+      "value": "True"
+    },
+    {
+      "trait_type": "Serenity Level",
+      "value": "Maximum"
+    }
+  ],
+  "ipfs": {
+    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "updated": "2025-06-30T20:38:00.820Z",
+    "gateway": "https://gateway.pinata.cloud/ipfs"
+  }
+}

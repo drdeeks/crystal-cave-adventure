@@ -1,0 +1,31 @@
+{
+  "name": "Galaxy Map",
+  "description": "Map of distant galaxies and their mysteries",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/15.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Galactic Navigation"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Discovery Location",
+      "value": "Galactic Journey"
+    },
+    {
+      "trait_type": "Galactic Knowledge",
+      "value": "True"
+    }
+  ],
+  "ipfs": {
+    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "updated": "2025-06-30T20:38:00.814Z",
+    "gateway": "https://gateway.pinata.cloud/ipfs",
+    "enhanced": "2025-06-30T20:47:25.301Z",
+    "version": "enhanced",
+    "cleaned": "2025-06-30T20:47:57.824Z"
+  }
+}

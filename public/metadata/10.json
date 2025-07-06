@@ -1,0 +1,59 @@
+{
+  "name": "Ancient Scroll",
+  "description": "Scroll containing knowledge of ancient civilizations",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/10.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Historical Document"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Discovery Location",
+      "value": "Dragon's Domain"
+    },
+    {
+      "trait_type": "Civilization",
+      "value": "Inca"
+    },
+    {
+      "trait_type": "Source Challenge",
+      "value": "History"
+    },
+    {
+      "trait_type": "Knowledge Type",
+      "value": "Ancient Wisdom"
+    },
+    {
+      "trait_type": "Dragon Gift",
+      "value": "True"
+    },
+    {
+      "trait_type": "Galaxy Count",
+      "value": "Billions"
+    },
+    {
+      "trait_type": "Scale",
+      "value": "Universal"
+    },
+    {
+      "trait_type": "Dimension",
+      "value": "3D Holographic"
+    },
+    {
+      "trait_type": "Update Frequency",
+      "value": "Real-time"
+    }
+  ],
+  "ipfs": {
+    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "updated": "2025-06-30T20:38:00.786Z",
+    "gateway": "https://gateway.pinata.cloud/ipfs",
+    "enhanced": "2025-06-30T20:47:25.272Z",
+    "version": "enhanced",
+    "cleaned": "2025-06-30T20:47:57.818Z"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Fossil Fragment",
+  "description": "Ancient remnant from prehistoric times",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/6.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Paleontological Artifact"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Discovery Location",
+      "value": "Submerged Mystery Cave"
+    },
+    {
+      "trait_type": "Era",
+      "value": "Prehistoric"
+    },
+    {
+      "trait_type": "Fossil Type",
+      "value": "Marine Creature"
+    },
+    {
+      "trait_type": "Scientific Value",
+      "value": "High"
+    },
+    {
+      "trait_type": "Pearl Size",
+      "value": "Large"
+    },
+    {
+      "trait_type": "Pattern Complexity",
+      "value": "Intricate"
+    },
+    {
+      "trait_type": "Ocean Depth",
+      "value": "Abyssal"
+    },
+    {
+      "trait_type": "Luster",
+      "value": "Iridescent"
+    }
+  ],
+  "ipfs": {
+    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "updated": "2025-06-30T20:38:00.771Z",
+    "gateway": "https://gateway.pinata.cloud/ipfs",
+    "enhanced": "2025-06-30T20:47:25.245Z",
+    "version": "enhanced",
+    "cleaned": "2025-06-30T20:47:57.812Z"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Water Crystal",
+  "description": "Crystal imbued with the power of flowing water",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/4.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Elemental Crystal"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Discovery Location",
+      "value": "Underground River"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    }
+  ],
+  "ipfs": {
+    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "updated": "2025-06-30T20:38:00.767Z",
+    "gateway": "https://gateway.pinata.cloud/ipfs",
+    "enhanced": "2025-06-30T20:47:25.232Z",
+    "version": "enhanced",
+    "cleaned": "2025-06-30T20:47:57.809Z"
+  }
+}

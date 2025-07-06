@@ -1,0 +1,14 @@
+# Crystal Cave Adventure - Educational Game
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Educational content should be accessible
+Allow: /static/
+Allow: /manifest.json
+
+# Game assets
+Allow: /*.js
+Allow: /*.css
+Allow: /*.png
+Allow: /*.ico 

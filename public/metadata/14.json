@@ -1,0 +1,55 @@
+{
+  "name": "Planetary Badge",
+  "description": "Badge earned through cosmic exploration",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/14.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Achievement Badge"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Discovery Location",
+      "value": "Solar System Journey"
+    },
+    {
+      "trait_type": "Achievement Type",
+      "value": "Planetary Explorer"
+    },
+    {
+      "trait_type": "Solar System Knowledge",
+      "value": "True"
+    },
+    {
+      "trait_type": "Exploration Rank",
+      "value": "Planetary"
+    },
+    {
+      "trait_type": "Bravery Boost",
+      "value": "Maximum"
+    },
+    {
+      "trait_type": "Fear Resistance",
+      "value": "Complete"
+    },
+    {
+      "trait_type": "Gem Cut",
+      "value": "Heart-shaped"
+    },
+    {
+      "trait_type": "Inner Light",
+      "value": "Brilliant"
+    }
+  ],
+  "ipfs": {
+    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "updated": "2025-06-30T20:38:00.811Z",
+    "gateway": "https://gateway.pinata.cloud/ipfs",
+    "enhanced": "2025-06-30T20:47:25.296Z",
+    "version": "enhanced",
+    "cleaned": "2025-06-30T20:47:57.823Z"
+  }
+}

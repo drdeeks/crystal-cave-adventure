@@ -1,0 +1,31 @@
+{
+  "name": "Star Map",
+  "description": "Celestial map revealing cosmic secrets",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/13.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Astronomical Tool"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Discovery Location",
+      "value": "Celestial Observatory"
+    },
+    {
+      "trait_type": "Celestial Knowledge",
+      "value": "True"
+    }
+  ],
+  "ipfs": {
+    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "updated": "2025-06-30T20:38:00.804Z",
+    "gateway": "https://gateway.pinata.cloud/ipfs",
+    "enhanced": "2025-06-30T20:47:25.289Z",
+    "version": "enhanced",
+    "cleaned": "2025-06-30T20:47:57.822Z"
+  }
+}

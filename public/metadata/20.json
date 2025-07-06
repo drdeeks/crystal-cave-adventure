@@ -1,0 +1,72 @@
+{
+  "name": "Salmonad",
+  "description": "A noble salmon Monanimal swimming upstream through dimensions",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/20.png",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Cave Dweller",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Mission",
+      "value": "5"
+    },
+    {
+      "trait_type": "Monanimal",
+      "value": "True"
+    },
+    {
+      "trait_type": "Utility",
+      "value": "True"
+    },
+    {
+      "trait_type": "Path",
+      "value": "Upstream Current"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Dimensional Flow"
+    },
+    {
+      "trait_type": "Gay",
+      "value": "Ofc"
+    },
+    {
+      "trait_type": "Discovery Location",
+      "value": "Interdimensional Rapids"
+    },
+    {
+      "trait_type": "Source Challenge",
+      "value": "Science"
+    },
+    {
+      "trait_type": "Monanimal Type",
+      "value": "Salmonad"
+    },
+    {
+      "trait_type": "Ability",
+      "value": "Dimensional Navigation"
+    },
+    {
+      "trait_type": "Galaxy Scales",
+      "value": "True"
+    },
+    {
+      "trait_type": "Migration Power",
+      "value": "Interdimensional"
+    },
+    {
+      "trait_type": "Cosmic Swimmer",
+      "value": "True"
+    }
+  ],
+  "ipfs": {
+    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "updated": "2025-06-30T20:38:00.826Z",
+    "gateway": "https://gateway.pinata.cloud/ipfs"
+  }
+}

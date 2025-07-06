@@ -1,0 +1,27 @@
+{
+  "name": "Keone",
+  "description": "A Monanimal with a colossal brain, master of overthinking and philosophical depth.",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/23.png",
+  "attributes": [
+    { "trait_type": "Monanimal", "value": "True" },
+    { "trait_type": "Cave Dweller", "value": "Yes" },
+    { "trait_type": "Mission", "value": "5" },
+    { "trait_type": "Utility", "value": "True" },
+    { "trait_type": "Gay", "value": "Ofc" },
+    { "trait_type": "Rarity", "value": "Legendary" },
+    { "trait_type": "Path", "value": "Mind Cavern" },
+    { "trait_type": "Element", "value": "Overthinking" },
+    { "trait_type": "Discovery Location", "value": "Deepest Thought" },
+    { "trait_type": "Source Challenge", "value": "Philosophy" },
+    { "trait_type": "Monanimal Type", "value": "Keone" },
+    { "trait_type": "Ability", "value": "Brain Overload" },
+    { "trait_type": "Underwear", "value": "SmartBoy" },
+    { "trait_type": "Brain Size", "value": "Colossal" },
+    { "trait_type": "Emotional Support", "value": "Wojak" },
+    { "trait_type": "Intelligence Level", "value": "Godlike" }
+  ],
+  "ipfs": {
+    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "gateway": "https://gateway.pinata.cloud/ipfs"
+  }
+} 

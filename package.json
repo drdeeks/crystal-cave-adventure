@@ -1,0 +1,135 @@
+{
+  "name": "crystal-cave-adventure",
+  "version": "1.0.0",
+  "description": "An interactive educational adventure game built with React",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "ethers": "^6.14.4",
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-confetti": "^6.4.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.1.0-next.26",
+    "web-vitals": "^2.1.4"
+  },
+  "main": "public/electron.js",
+  "homepage": "./",
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "electron": "electron public/electron.js",
+    "electron-dev": "ELECTRON_IS_DEV=true electron public/electron.js",
+    "build:electron": "npm run build && electron-builder",
+    "import-key": "node scripts/import-key.js",
+    "verify-contract": "node scripts/verify-contract.js",
+    "test:contracts": "forge test",
+    "test:metadata": "mocha test/metadata.test.js",
+    "test:integration": "mocha test/integration.test.js --timeout 30000",
+    "test:frontend": "mocha test/frontend.test.js --timeout 60000",
+    "test:all": "npm run test:contracts && npm run test:metadata",
+    "verify-deployment": "node test/deployment-verification.js",
+    "coverage": "forge coverage",
+    "update-metadata-ipfs": "node scripts/update-metadata-ipfs.js",
+    "verify-ipfs": "node scripts/verify-ipfs.js",
+    "quick-verify-ipfs": "node scripts/verify-ipfs.js --quick",
+    "enhance-metadata": "node scripts/enhance-artifact-metadata.js",
+    "cleanup-duplicates": "node scripts/cleanup-duplicate-traits.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [
+    "educational",
+    "game",
+    "learning",
+    "adventure",
+    "react",
+    "interactive"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@types/cacheable-request": "^6.0.3",
+    "@types/http-cache-semantics": "^4.0.4",
+    "@types/keyv": "^3.1.4",
+    "@types/ms": "^2.1.0",
+    "@types/node": "^24.0.7",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@types/responselike": "^1.0.3",
+    "chai": "^5.2.0",
+    "concurrently": "^9.2.0",
+    "electron": "^37.0.0",
+    "electron-builder": "^26.0.12",
+    "electron-is-dev": "^3.0.1",
+    "mocha": "^11.7.1",
+    "prompt-sync": "^4.2.0",
+    "typescript": "^5.1.6",
+    "wait-on": "^8.0.3"
+  },
+  "build": {
+    "appId": "com.crystalcave.adventure",
+    "productName": "Crystal Cave Adventure",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "build/**/*",
+      "public/electron.js",
+      "node_modules/**/*"
+    ],
+    "mac": {
+      "icon": "build/icon.icns",
+      "category": "public.app-category.games"
+    },
+    "win": {
+      "icon": "build/icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "linux": {
+      "icon": "build/icon.png",
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  }
+}

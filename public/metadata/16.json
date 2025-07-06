@@ -1,0 +1,31 @@
+{
+  "name": "Time Crystal",
+  "description": "Crystal that manipulates the flow of time",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/16.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Temporal Artifact"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Discovery Location",
+      "value": "Time Anomaly"
+    },
+    {
+      "trait_type": "Temporal Power",
+      "value": "Chronokinetic"
+    }
+  ],
+  "ipfs": {
+    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "updated": "2025-06-30T20:38:00.816Z",
+    "gateway": "https://gateway.pinata.cloud/ipfs",
+    "enhanced": "2025-06-30T20:47:25.306Z",
+    "version": "enhanced",
+    "cleaned": "2025-06-30T20:47:57.825Z"
+  }
+}

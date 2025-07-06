@@ -1,0 +1,72 @@
+{
+  "name": "Moyaki",
+  "description": "A mystical octopus Monanimal with ancient wisdom",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy/19.png",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Cave Dweller",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Mission",
+      "value": "5"
+    },
+    {
+      "trait_type": "Monanimal",
+      "value": "True"
+    },
+    {
+      "trait_type": "Utility",
+      "value": "True"
+    },
+    {
+      "trait_type": "Path",
+      "value": "Mysterious Depths"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Deep Knowledge"
+    },
+    {
+      "trait_type": "Gay",
+      "value": "Ofc"
+    },
+    {
+      "trait_type": "Discovery Location",
+      "value": "Abyssal Realm"
+    },
+    {
+      "trait_type": "Source Challenge",
+      "value": "Science"
+    },
+    {
+      "trait_type": "Monanimal Type",
+      "value": "Moyaki"
+    },
+    {
+      "trait_type": "Ability",
+      "value": "Eight-Fold Wisdom"
+    },
+    {
+      "trait_type": "Tentacle Count",
+      "value": "8"
+    },
+    {
+      "trait_type": "Bioluminescence",
+      "value": "True"
+    },
+    {
+      "trait_type": "Intelligence Level",
+      "value": "Supreme"
+    }
+  ],
+  "ipfs": {
+    "images_hash": "bafybeiemahzzy5k5llmgujkztjvhczxmtp4p7w4amu4jnvok53hzeiwkjy",
+    "updated": "2025-06-30T20:38:00.824Z",
+    "gateway": "https://gateway.pinata.cloud/ipfs"
+  }
+}
