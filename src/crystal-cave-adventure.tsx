@@ -1567,6 +1567,7 @@ const AdventureLearningGame = () => {
   }
 
   return (
+    <>
     <main
       className="main-bg flex flex-col min-h-screen"
       ref={mainContainerRef}
@@ -1600,7 +1601,7 @@ const AdventureLearningGame = () => {
                       aria-label={`Choose: ${choice.text}`}
                       onClick={choice.action}
                       onKeyDown={e => (e.key === 'Enter' || e.key === ' ') && choice.action()}
-                      style={{ minWidth: '400px', maxWidth: '600px', minHeight: '50px', whiteSpace: 'nowrap', textAlign: 'center', fontSize: '1.1rem', fontWeight: 600, lineHeight: 1.2, padding: '0.8rem 2rem', overflow: 'hidden', textOverflow: 'ellipsis', display: 'block', width: '100%' }}
+                      /* Styles now in App.css for mobile responsiveness */
                     >
                       {choice.text}
                     </button>
@@ -1775,6 +1776,9 @@ const AdventureLearningGame = () => {
       </div>
       {/* Artifact Detail Modal removed */}
     </main>
+    {/* Sticky mobile navigation */}
+    <StickyBottomNav />
+    </>
   );
 };
 
